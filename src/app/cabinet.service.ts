@@ -7,7 +7,7 @@ export class CabinetService {
       name: 'Mappy Mini-cabinet',
       description: 'The original cat and mouse game.',
       addedAt: new Date(2021, 12, 22),
-      storeCount: 2,
+      storeCount: 1,
       price: 27.99,
     },
     {
@@ -23,7 +23,7 @@ export class CabinetService {
       name: 'Super Mario Bros. Cabinet',
       description: 'One of our hottest cabinets.',
       addedAt: new Date(2022, 6, 1),
-      storeCount: 1,
+      storeCount: 0,
       price: 2195.99,
     },
     {
@@ -31,7 +31,7 @@ export class CabinetService {
       name: 'Pac-man 4ft Cabinet',
       description: 'Paco paco paco paco.',
       addedAt: new Date(2022, 4, 2),
-      storeCount: 3,
+      storeCount: 2,
       price: 249.99,
     },
   ];
