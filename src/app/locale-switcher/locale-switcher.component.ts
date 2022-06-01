@@ -1,8 +1,8 @@
 import {
-  Component,
   Inject,
-  LOCALE_ID,
   OnInit,
+  Component,
+  LOCALE_ID,
 } from '@angular/core';
 
 @Component({

@@ -19,7 +19,9 @@
           {{ cabinet.name }}
         </h3>
 
-        <p class="font-extralight">${{ cabinet.price }}</p>
+        <p class="font-extralight">
+          {{ cabinet.price | currency: 'USD' }}
+        </p>
       </div>
       <p class="mb-3">{{ cabinet.description }}</p>
       <div class="flex items-baseline justify-between">
