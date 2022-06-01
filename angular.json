@@ -32,7 +32,8 @@
             "tsConfig": "tsconfig.app.json",
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.css"],
-            "scripts": []
+            "scripts": [],
+            "localize": true
           },
           "configurations": {
             "production": {
@@ -62,7 +63,11 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
+              "namedChunks": true,
+              "localize": ["en-CA"]
+            },
+            "ar": {
+              "localize": ["ar"]
             }
           },
           "defaultConfiguration": "production"
@@ -75,6 +80,9 @@
             },
             "development": {
               "browserTarget": "azcadea:build:development"
+            },
+            "ar": {
+              "browserTarget": "azcadea:build:ar"
             }
           },
           "defaultConfiguration": "development"
