@@ -2,6 +2,16 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-CA" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="1475737827206181859" datatype="html">
+        <source>تطبيق تجريبي مصحاب لمقال في
+  &lt;a href=&quot;<x id="PH" equiv-text="this.phraseBlogUrl"/>&quot;&gt;مدونة فريز&lt;/a&gt;
+  .
+  &lt;a href=&quot;<x id="PH_1" equiv-text="this.angularUrl"/>&quot;&gt;بني بواسطة أنجيولر&lt;/a&gt;.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.ts</context>
+          <context context-type="linenumber">11,14</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="615967567956853879" datatype="html">
         <source>azcadea logo</source>
         <target>رمز أزكيديا</target>

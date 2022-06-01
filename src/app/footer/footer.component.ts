@@ -5,6 +5,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './footer.component.html',
 })
 export class FooterComponent implements OnInit {
+  phraseBlogUrl = 'https://phrase.com/blog';
+  angularUrl = 'https://angular.io/';
+
+  footerText = $localize`Demo companion app for
+  <a href="${this.phraseBlogUrl}">Phrase blog</a>
+  post.
+  <a href="${this.angularUrl}">Made with Angular</a>.`;
+
   constructor() {}
 
   ngOnInit(): void {}
