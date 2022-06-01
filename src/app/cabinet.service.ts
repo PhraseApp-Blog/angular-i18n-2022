@@ -29,7 +29,7 @@ export class CabinetService {
     {
       imageUrl: '/assets/cabinets/pac-man.jpg',
       name: 'Pac-man 4ft Cabinet',
-      description: 'Paco paco paco paco',
+      description: 'Paco paco paco paco.',
       addedAt: new Date(2022, 4, 2),
       storeCount: 3,
       price: 249.99,

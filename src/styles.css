@@ -5,3 +5,7 @@
 body {
   @apply mt-3 bg-slate-800 text-slate-100;
 }
+
+a {
+  @apply text-blue-400 hover:underline hover:decoration-blue-400;
+}
