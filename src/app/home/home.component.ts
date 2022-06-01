@@ -16,6 +16,6 @@ export class HomeComponent implements OnInit {
   }
 
   altFor(cabinet: Cabinet): string {
-    return `Image of ${cabinet.name}`;
+    return $localize`Image of ${cabinet.name}`;
   }
 }
