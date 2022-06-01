@@ -3,7 +3,9 @@
 >
   <div class="flex items-baseline">
     <img
-      alt="Logo"
+      i18n-alt
+      alt="azcadea logo"
+      title="azcadea logo"
       src="assets/logo.svg"
       class="w-[50px] h-[50px] block relative top-2"
     />
@@ -17,14 +19,14 @@
         routerLink="/"
         routerLinkActive="font-semibold"
         [routerLinkActiveOptions]="{ exact: true }"
-        >Home</a
+        >{{ home }}</a
       >
     </li>
     <li>
       <a
         routerLink="/about"
         routerLinkActive="font-semibold"
-        >About</a
+        >{{ about }}</a
       >
     </li>
   </ul>
