@@ -1,1 +1,40 @@
-<p>home works!</p>
+<div class="grid gap-4 grid-cols-2 grid-rows-2">
+  <div
+    *ngFor="let cabinet of cabinets"
+    class="w-full bg-slate-900 rounded-md shadow-md border-slate-900 border-[1px]"
+  >
+    <div
+      class="w-full h-[200px] overflow-hidden relative bg-gray-700 rounded-t-md"
+    >
+      <img
+        [alt]="altFor(cabinet)"
+        [src]="cabinet.imageUrl"
+        class="absolute inset-0 object-contain min-w-full min-h-full max-w-full max-h-full"
+      />
+    </div>
+
+    <div class="px-3 pt-3 pb-4">
+      <div class="flex items-baseline justify-between">
+        <h3 class="font-bold text-lg">
+          {{ cabinet.name }}
+        </h3>
+
+        <p class="font-extralight">${{ cabinet.price }}</p>
+      </div>
+      <p class="mb-3">{{ cabinet.description }}</p>
+      <div class="flex items-baseline justify-between">
+        <span
+          class="py-1 px-2 font-extralight text-xs border-slate-300 text-slate-300 border-[1px] rounded-full"
+        >
+          Available at {{ cabinet.storeCount }} outlets
+        </span>
+
+        <button
+          class="bg-slate-100 text-slate-800 py-1.5 px-3 rounded-full font-semibold text-sm"
+        >
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
