@@ -1,4 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {
+  Component,
+  Inject,
+  LOCALE_ID,
+  OnInit,
+} from '@angular/core';
 import { Cabinet } from '../cabinet.model';
 import { CabinetService } from '../cabinet.service';
 
@@ -9,10 +14,15 @@ import { CabinetService } from '../cabinet.service';
 export class HomeComponent implements OnInit {
   cabinets: Cabinet[] = [];
 
-  constructor(private cabinetService: CabinetService) {}
+  constructor(
+    private cabinetService: CabinetService,
+    @Inject(LOCALE_ID) private activeLocale: string
+  ) {}
 
   ngOnInit(): void {
-    this.cabinets = this.cabinetService.all();
+    this.cabinets = this.cabinetService.allFor(
+      this.activeLocale
+    );
   }
 
   altFor(cabinet: Cabinet): string {
