@@ -41,7 +41,7 @@ export class CabinetService {
     ar: [
       {
         imageUrl: 'assets/cabinets/mappy.jpg',
-        name: 'Mappy Mini-cabinet',
+        name: 'خزانة مابي صغيرة',
         description: 'لعبة القط والفأر الأصلية',
         addedAt: new Date(2021, 12, 22),
         storeCount: 1,
