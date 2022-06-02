@@ -10,7 +10,7 @@ import {
   templateUrl: './locale-switcher.component.html',
 })
 export class LocaleSwitcherComponent implements OnInit {
-  locales = [
+  locales: { code: Locale; name: string }[] = [
     { code: 'en-CA', name: 'English' },
     { code: 'ar', name: 'عربي (Arabic)' },
   ];

@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private cabinetService: CabinetService,
-    @Inject(LOCALE_ID) private activeLocale: string
+    @Inject(LOCALE_ID) private activeLocale: Locale
   ) {}
 
   ngOnInit(): void {
