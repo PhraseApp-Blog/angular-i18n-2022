@@ -1,0 +1,13 @@
+phrase:
+  access_token: your_access_token
+  project_id: your_project_id
+  push:
+    sources:
+      - file: ./src/locale/messages.xlf
+        params:
+          file_format: xlf
+  pull:
+    targets:
+      - file: ./src/locale/messages.<locale_name>.xlf
+        params:
+          file_format: xlf

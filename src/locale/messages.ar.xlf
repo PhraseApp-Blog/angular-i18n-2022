@@ -1,90 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-CA" datatype="plaintext" original="ng2.template">
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="ng2.template" datatype="plaintext" source-language="en-CA" target-language="ar">
     <body>
-      <trans-unit id="1475737827206181859" datatype="html">
-        <source>تطبيق تجريبي مصحاب لمقال في
-  &lt;a href=&quot;<x id="PH" equiv-text="this.phraseBlogUrl"/>&quot;&gt;مدونة فريز&lt;/a&gt;
+      <trans-unit id="1475737827206181859">
+        <source xml:lang="en-CA">Demo companion app for
+  &lt;a href="&lt;x id="PH" equiv-text="this.phraseBlogUrl"/&gt;"&gt;Phrase blog&lt;/a&gt;
+  post.
+  &lt;a href="&lt;x id="PH_1" equiv-text="this.angularUrl"/&gt;"&gt;Made with Angular&lt;/a&gt;.</source>
+        <target xml:lang="ar">تطبيق تجريبي مصحاب لمقال في
+  &lt;a href="<x id="PH" equiv-text="this.phraseBlogUrl"/>"&gt;مدونة فريز&lt;/a&gt;
   .
-  &lt;a href=&quot;<x id="PH_1" equiv-text="this.angularUrl"/>&quot;&gt;بني بواسطة أنجيولر&lt;/a&gt;.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/footer/footer.component.ts</context>
-          <context context-type="linenumber">11,14</context>
-        </context-group>
+  &lt;a href="<x id="PH_1" equiv-text="this.angularUrl"/>"&gt;بني بواسطة أنجيولر&lt;/a&gt;.</target>
       </trans-unit>
-      <trans-unit id="8856905278208146821" datatype="html">
-        <source> <x id="ICU" equiv-text="{cabinet.storeCount, plural, =0 {Sold out} =1
-          {Available at 1 outlet} other {Available at
-          {{ cabinet.storeCount }} outlets} }" xid="4465788077291796430"/> </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">29,33</context>
-        </context-group>
+      <trans-unit id="1726363342938046830">
+        <source xml:lang="en-CA">About</source>
+        <target xml:lang="ar">نبذة عنا</target>
       </trans-unit>
-       <trans-unit id="7185053985224017078" datatype="html">
-        <source>{VAR_PLURAL, plural, =0 {Sold out} =1 {Available at 1 outlet} other {Available at
+      <trans-unit id="2821179408673282599">
+        <source xml:lang="en-CA">Home</source>
+        <target xml:lang="ar">الرئيسية</target>
+      </trans-unit>
+      <trans-unit id="4481891408571585417">
+        <source xml:lang="en-CA"> Add to cart </source>
+        <target xml:lang="ar">أضف إلى السلة</target>
+      </trans-unit>
+      <trans-unit id="615967567956853879">
+        <source xml:lang="en-CA">azcadea logo</source>
+        <target xml:lang="ar">رمز أزكيديا</target>
+      </trans-unit>
+      <trans-unit id="6223458566712133696">
+        <source xml:lang="en-CA">Image of <x id="PH" equiv-text="cabinet.name"/></source>
+        <target xml:lang="ar">صورة <x id="PH" equiv-text="cabinet.name"/></target>
+      </trans-unit>
+      <trans-unit id="7185053985224017078">
+        <source xml:lang="en-CA">{VAR_PLURAL, plural, =0 {Sold out} =1 {Available at 1 outlet} other {Available at
           <x id="INTERPOLATION"/> outlets}}</source>
-        <target>
-        {VAR_PLURAL, plural,
+        <target xml:lang="ar">{VAR_PLURAL, plural,
           =0 {غير متوفر}
           =1 {متوفر عند فرع <x id="INTERPOLATION"/>}
           two {متوفر عند فرعين}
           few {متوفر عند <x id="INTERPOLATION"/> أفرع}
           many {متوفر عند <x id="INTERPOLATION"/> فرع}
           other {متوفر عند <x id="INTERPOLATION"/> فرع}
-        }
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">30,32</context>
-        </context-group>
+        }</target>
       </trans-unit>
-      <trans-unit id="4481891408571585417" datatype="html">
-        <source> Add to cart </source>
-        <target>أضف إلى السلة</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">48,50</context>
-        </context-group>
+      <trans-unit id="7285274704628585281">
+        <source xml:lang="en-CA">azcadea</source>
+        <target xml:lang="ar">أزكيديا</target>
       </trans-unit>
-      <trans-unit id="6223458566712133696" datatype="html">
-        <source>صورة <x id="PH" equiv-text="cabinet.name"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.ts</context>
-          <context context-type="linenumber">19</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="615967567956853879" datatype="html">
-        <source>azcadea logo</source>
-        <target>رمز أزكيديا</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7285274704628585281" datatype="html">
-        <source>azcadea</source>
-        <target>أزكيديا</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2821179408673282599" datatype="html">
-        <source>Home</source>
-        <target>الرئيسية</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1726363342938046830" datatype="html">
-        <source>About</source>
-        <target>نبذة عنا</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
+      <trans-unit id="8856905278208146821">
+        <source xml:lang="en-CA"> <x id="ICU" equiv-text="{cabinet.storeCount, plural, =0 {Sold out} =1           {Available at 1 outlet} other {Available at           {{ cabinet.storeCount }} outlets} }" xid="4465788077291796430"/> </source>
+        <target xml:lang="ar"> <x id="ICU" equiv-text="{cabinet.storeCount, plural, =0 {Sold out} =1           {Available at 1 outlet} other {Available at           {{ cabinet.storeCount }} outlets} }" xid="4465788077291796430"/> </target>
       </trans-unit>
     </body>
   </file>
