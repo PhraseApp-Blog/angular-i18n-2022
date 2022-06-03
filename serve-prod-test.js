@@ -1,3 +1,8 @@
+/*******************************************************
+ * ⚠️ This server is for testing production builds in a
+ * developmment environment. It has not been checked for
+ * security. Please do not use in production!
+ *******************************************************/
 const path = require('path');
 const express = require('express');
 
