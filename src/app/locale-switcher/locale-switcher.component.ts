@@ -1,6 +1,5 @@
 import {
   Inject,
-  OnInit,
   Component,
   LOCALE_ID,
 } from '@angular/core';
@@ -9,8 +8,8 @@ import {
   selector: 'app-locale-switcher',
   templateUrl: './locale-switcher.component.html',
 })
-export class LocaleSwitcherComponent implements OnInit {
-  locales: { code: Locale; name: string }[] = [
+export class LocaleSwitcherComponent {
+  locales = [
     { code: 'en-CA', name: 'English' },
     { code: 'ar', name: 'عربي (Arabic)' },
   ];
@@ -18,8 +17,6 @@ export class LocaleSwitcherComponent implements OnInit {
   constructor(
     @Inject(LOCALE_ID) public activeLocale: string
   ) {}
-
-  ngOnInit(): void {}
 
   onChange() {
     window.location.href = `/${this.activeLocale}`;

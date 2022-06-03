@@ -12,7 +12,7 @@ const server = express();
 server.use(express.static(rootDir));
 
 locales.forEach((locale) => {
-  server.get(`/${locale}/*`, async (req, res) => {
+  server.get(`/${locale}/*`, (req, res) => {
     res.sendFile(
       path.resolve(rootDir, locale, 'index.html')
     );
