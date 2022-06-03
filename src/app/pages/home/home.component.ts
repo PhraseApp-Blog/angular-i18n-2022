@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Cabinet } from '../cabinet.model';
-import { CabinetService } from '../cabinet.service';
+import { Cabinet } from '../../cabinet.model';
+import { CabinetService } from '../../cabinet.service';
 
 @Component({
   selector: 'app-home',
