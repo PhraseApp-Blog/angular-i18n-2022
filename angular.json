@@ -67,6 +67,12 @@
               "localize": ["en-CA"]
             },
             "ar": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true,
               "localize": ["ar"]
             }
           },
