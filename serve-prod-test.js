@@ -5,6 +5,7 @@
  *******************************************************/
 const path = require('path');
 const express = require('express');
+const matchSupportedLocales = require('./match-supported-locale');
 
 const port = 8080;
 const rootDir = path.join(__dirname, 'dist/azcadea');
@@ -24,9 +25,15 @@ locales.forEach((locale) => {
   });
 });
 
-server.get('/', (req, res) =>
-  res.redirect(`/${defaultLocale}`)
-);
+server.get('/', (req, res) => {
+  const closestSupportedLocale = matchSupportedLocales(
+    req.acceptsLanguages(),
+    locales,
+    defaultLocale
+  );
+
+  return res.redirect(`/${closestSupportedLocale}`);
+});
 
 server.listen(port, () =>
   console.log(`App running at port ${port}…`)
