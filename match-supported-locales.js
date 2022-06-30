@@ -11,10 +11,8 @@ function matchSupportedLocale(
 }
 
 function firstExactMatch(acceptsLocales, supportedLocales) {
-  return (
-    acceptsLocales.find((al) =>
-      supportedLocales.includes(al)
-    ) || false
+  return acceptsLocales.find((al) =>
+    supportedLocales.includes(al)
   );
 }
 
@@ -23,16 +21,14 @@ function firstLanguageMatch(
   supportedLocales
 ) {
   for (acceptedLang of languagesFor(acceptsLocales)) {
-    const matchingSupportedLocale = supportedLocales.find(
+    const match = supportedLocales.find(
       (sl) => languageFor(sl) === acceptedLang
     );
 
-    if (matchingSupportedLocale) {
-      return matchingSupportedLocale;
+    if (match) {
+      return match;
     }
   }
-
-  return false;
 }
 
 function languagesFor(locales) {

@@ -5,7 +5,7 @@
  *******************************************************/
 const path = require('path');
 const express = require('express');
-const matchSupportedLocales = require('./match-supported-locale');
+const matchSupportedLocales = require('./match-supported-locales');
 
 const port = 8080;
 const rootDir = path.join(__dirname, 'dist/azcadea');
