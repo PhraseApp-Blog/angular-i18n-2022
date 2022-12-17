@@ -1,17 +1,18 @@
 <nav
-  class="flex items-baseline justify-start mb-4 pb-4 border-b-slate-700/75 border-b-[0.5px]"
+  class="flex items-baseline justify-between mb-4 pb-4 border-b-slate-700/75 border-b-[0.5px]"
 >
   <div class="flex items-baseline">
     <img
+      i18n-alt 
       alt="Logo"
-      src="/assets/logo.svg"
+      src="assets/logo.svg"
       class="w-[50px] h-[50px] block relative top-2"
     />
-    <h1 class="text-3xl font-light">azcadea</h1>
+    <h1 i18n class="text-3xl font-light">azcadea</h1>
   </div>
   <ul class="flex items-baseline ml-8 space-x-4 font-light">
     <li>
-      <a
+      <a i18n 
         routerLink="/"
         routerLinkActive="font-semibold"
         [routerLinkActiveOptions]="{ exact: true }"
@@ -19,11 +20,16 @@
       >
     </li>
     <li>
-      <a
+      <a i18n
         routerLink="/about"
         routerLinkActive="font-semibold"
         >About</a
       >
     </li>
   </ul>
+
+  <div class="justify-self-end">
+    <app-locale-switcher></app-locale-switcher>
+  </div>
+  
 </nav>

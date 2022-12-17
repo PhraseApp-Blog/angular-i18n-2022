@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+	<file original="ng2.template" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
+		<header>
+			<tool tool-id="lokalise.com" tool-name="Lokalise"></tool>
+		</header>
+		<body>
+			<trans-unit id="8797412082259097832" datatype="html">
+				<source> Demo companion app for Phrase blog post. Made with Angular.
+</source>
+				<target>تطبيق مصاحب تجريبي لمنشور مدونة Phrase. مصنوع من الزاوي.
+</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+					<context context-type="linenumber">3,5</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="4550958265168690830" datatype="html">
+				<source>Logo</source>
+				<target>شعار</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/layout/navbar/navbar.component.html</context>
+					<context context-type="linenumber">7</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="7285274704628585281" datatype="html">
+				<source>azcadea</source>
+				<target>أزكاديا</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/layout/navbar/navbar.component.html</context>
+					<context context-type="linenumber">11</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="2821179408673282599" datatype="html">
+				<source>Home</source>
+				<target>مسكن</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/layout/navbar/navbar.component.html</context>
+					<context context-type="linenumber">19</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/layout/navbar/navbar.component.ts</context>
+					<context context-type="linenumber">8</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="1726363342938046830" datatype="html">
+				<source>About</source>
+				<target>حول</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/layout/navbar/navbar.component.html</context>
+					<context context-type="linenumber">26</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/layout/navbar/navbar.component.ts</context>
+					<context context-type="linenumber">9</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="1770667736290392113" datatype="html">
+				<source> This is a fictional demo app that goes with a Phrase blog article. It was made with Angular and Tailwind CSS.
+</source>
+				<target>هذا تطبيق تجريبي خيالي يتماشى مع مقالة مدونة Phrase. تم صنعه باستخدام Angular و Tailwind CSS.
+</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+					<context context-type="linenumber">2,4</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="3540897424395707194" datatype="html">
+				<source> Attributions
+</source>
+				<target>الصفات
+</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+					<context context-type="linenumber">6,8</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="5420583792721485170" datatype="html">
+				<source> Brand icon in navbar is <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;font-italic&quot;&gt;"/>Arcade<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> by Flatart from NounProject.com.
+</source>
+				<target>رمز العلامة التجارية في شريط التنقل هو  <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;font-italic&quot;&gt;"/>Arcade  بواسطة Flatart من NounProject.com.
+</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+					<context context-type="linenumber">10,13</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="6736040442808015453" datatype="html">
+				<source>Mappy cabinet</source>
+				<target>خزانة Mappy</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+					<context context-type="linenumber">23</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="2172977204166338269" datatype="html">
+				<source>Guitar hero cabinet</source>
+				<target>مجلس الوزراء بطل الغيتار</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+					<context context-type="linenumber">32</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="7240248924313705657" datatype="html">
+				<source>Senad Palic</source>
+				<target>سيناد باليتش</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+					<context context-type="linenumber">35</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="286283690478928510" datatype="html">
+				<source>Super Mario Bros. cabinet</source>
+				<target>خزانة سوبر ماريو بروس</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+					<context context-type="linenumber">40</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="6804599749173334186" datatype="html">
+				<source>Rafael Hoyos Weht</source>
+				<target>رافائيل هويوس ويت</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+					<context context-type="linenumber">44</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="6132312489928622513" datatype="html">
+				<source>Pac-man cabinet</source>
+				<target>خزانة باك مان</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+					<context context-type="linenumber">50</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="3084701096308069073" datatype="html">
+				<source>Darya Tryfanava</source>
+				<target>داريا تريفانافا</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+					<context context-type="linenumber">54</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="6409999426211222621" datatype="html">
+				<source> Arcade cabinet photos are from <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://unsplash.com/&quot;&gt;"/>Unsplash<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>:
+</source>
+				<target>صور خزانة الألعاب من Unsplash<x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://unsplash.com/&quot;&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>:
+</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+					<context context-type="linenumber">15,18</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="8856905278208146821" datatype="html">
+				<source> <x id="ICU" equiv-text="{cabinet.storeCount, plural,
+          =0 {Sold out}
+          =1 {Available at 1 outlet}
+          other {Available at {{ cabinet.storeCount }} outlets} }" xid="5109492007901294987"/> </source>
+				<target> <x id="ICU" equiv-text="{cabinet.storeCount, plural,
+          =0 {Sold out}
+          =1 {Available at 1 outlet}
+          other {Available at {{ cabinet.storeCount }} outlets} }" xid="5109492007901294987"/> </target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+					<context context-type="linenumber">28,33</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="4428520680583395038" datatype="html">
+				<source>{VAR_PLURAL, plural, one {Available at 1 outlet} other {Available at <x id="INTERPOLATION"/> outlets}}</source>
+				<target>{VAR_PLURAL, plural, zero {غير متوفر} one {متوفر عند فرع <x id="INTERPOLATION"/>} two {متوفر عند فرعين} few {متوفر عند <x id="INTERPOLATION"/> أفرع} many {متوفر عند <x id="INTERPOLATION"/> فرع} other {متوفر عند <x id="INTERPOLATION"/> فرع}}</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+					<context context-type="linenumber">29,32</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="4481891408571585417" datatype="html">
+				<source> Add to cart </source>
+				<target>أضف إلى السلة</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+					<context context-type="linenumber">37,39</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="6223458566712133696" datatype="html">
+				<source>Image of <x id="PH" equiv-text="cabinet.name"/></source>
+				<target>صورة <x id="PH" equiv-text="cabinet.name"/></target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/pages/home/home.component.ts</context>
+					<context context-type="linenumber">19</context>
+				</context-group>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

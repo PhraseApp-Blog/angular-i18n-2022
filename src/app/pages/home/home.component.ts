@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {   Component, Inject, LOCALE_ID, OnInit, } from '@angular/core';
 import { Cabinet } from '../../cabinet.model';
 import { CabinetService } from '../../cabinet.service';
 
@@ -16,6 +16,6 @@ export class HomeComponent implements OnInit {
   }
 
   altFor(cabinet: Cabinet): string {
-    return `Image of ${cabinet.name}`;
+    return $localize`Image of ${cabinet.name}`;
   }
 }

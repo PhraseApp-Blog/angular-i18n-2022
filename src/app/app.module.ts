@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,6 +9,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { CabinetService } from './cabinet.service';
 import { FooterComponent } from './layout/footer/footer.component';
+import { LocaleSwitcherComponent } from './locale-switcher/locale-switcher.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +18,9 @@ import { FooterComponent } from './layout/footer/footer.component';
     AboutComponent,
     NavbarComponent,
     FooterComponent,
+    LocaleSwitcherComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [CabinetService],
   bootstrap: [AppComponent],
 })

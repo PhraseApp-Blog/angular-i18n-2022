@@ -19,17 +19,27 @@
           {{ cabinet.name }}
         </h3>
 
-        <p class="font-extralight">${{ cabinet.price }}</p>
+        <p class="font-extralight">
+          {{ cabinet.price | currency: 'USD'}}</p>
       </div>
       <p class="mb-3">{{ cabinet.description }}</p>
+
+<!-- Adding a localized date here-->
+      <p class="mb-1 text-xs font-extralight text-slate-400">
+        {{ cabinet.addedAt | date: 'shortDate' }}
+      </p>
+    
       <div class="flex items-baseline justify-between">
-        <span
+        <span i18n
           class="py-1 px-2 font-extralight text-xs border-slate-300 text-slate-300 border-[1px] rounded-full"
         >
-          Available at {{ cabinet.storeCount }} outlets
+        {cabinet.storeCount, plural,
+          =0 {Sold out}
+          =1 {Available at 1 outlet}
+          other {Available at {{ cabinet.storeCount }} outlets} }
         </span>
 
-        <button
+        <button i18n
           class="bg-slate-100 text-slate-800 py-1.5 px-3 rounded-full font-semibold text-sm"
         >
           Add to cart
