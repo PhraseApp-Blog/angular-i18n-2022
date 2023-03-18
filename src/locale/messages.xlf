@@ -8,8 +8,36 @@
   post.
   &lt;a href=&quot;<x id="PH_1" equiv-text="this.angularUrl"/>&quot;&gt;Made with Angular&lt;/a&gt;.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/footer/footer.component.ts</context>
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.ts</context>
           <context context-type="linenumber">11,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="615967567956853879" datatype="html">
+        <source>azcadea logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/navbar/navbar.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7285274704628585281" datatype="html">
+        <source>azcadea</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/navbar/navbar.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1726363342938046830" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8856905278208146821" datatype="html">
@@ -17,7 +45,7 @@
           {Available at 1 outlet} other {Available at
           {{ cabinet.storeCount }} outlets} }" xid="4465788077291796430"/> </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
           <context context-type="linenumber">39,43</context>
         </context-group>
       </trans-unit>
@@ -25,50 +53,22 @@
         <source>{VAR_PLURAL, plural, =0 {Sold out} =1 {Available at 1 outlet} other {Available at
           <x id="INTERPOLATION"/> outlets}}</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
           <context context-type="linenumber">40,42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4481891408571585417" datatype="html">
         <source> Add to cart </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
           <context context-type="linenumber">48,50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6223458566712133696" datatype="html">
         <source>Image of <x id="PH" equiv-text="cabinet.name"/></source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.ts</context>
-          <context context-type="linenumber">29</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="615967567956853879" datatype="html">
-        <source>azcadea logo</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7285274704628585281" datatype="html">
-        <source>azcadea</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2821179408673282599" datatype="html">
-        <source>Home</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1726363342938046830" datatype="html">
-        <source>About</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="sourcefile">src/app/pages/home/home.component.ts</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
     </body>

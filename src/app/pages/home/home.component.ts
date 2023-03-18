@@ -15,6 +15,7 @@ export class HomeComponent implements OnInit {
   cabinets: Cabinet[] = [];
 
   constructor(
+    //this is where the dummy data comes from
     private cabinetService: CabinetService,
     @Inject(LOCALE_ID) private activeLocale: Locale
   ) {}
