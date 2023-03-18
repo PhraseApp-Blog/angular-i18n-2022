@@ -10,7 +10,7 @@ const matchSupportedLocales = require('./match-supported-locales');
 const port = 8080;
 const rootDir = path.join(__dirname, 'dist/azcadea');
 
-const locales = ['en-CA', 'ar'];
+const locales = ['en-CA', 'ar', 'fr'];
 const defaultLocale = 'en-CA';
 
 const server = express();

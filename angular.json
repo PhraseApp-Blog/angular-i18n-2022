@@ -21,6 +21,9 @@
         "locales": {
           "ar": {
             "translation": "src/locale/messages.ar.xlf"
+          },
+          "fr": {
+            "translation": "src/locale/messages.fr.xlf"
           }
         }
       },
@@ -77,6 +80,15 @@
               "sourceMap": true,
               "namedChunks": true,
               "localize": ["ar"]
+            },
+            "fr": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true,
+              "localize": ["fr"]
             }
           },
           "defaultConfiguration": "production"
@@ -92,6 +104,9 @@
             },
             "ar": {
               "browserTarget": "azcadea:build:ar"
+            },
+            "fr": {
+              "browserTarget": "azcadea:build:fr"
             }
           },
           "defaultConfiguration": "development"

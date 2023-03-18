@@ -12,6 +12,7 @@ export class LocaleSwitcherComponent {
   locales = [
     { code: 'en-CA', name: 'English' },
     { code: 'ar', name: 'عربي (Arabic)' },
+    { code: 'fr', name: 'French (French)' },
   ];
 
   constructor(

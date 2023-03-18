@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="ng2.template" datatype="plaintext" source-language="en-CA" target-language="fr">
+    <body>
+      <trans-unit id="1475737827206181859">
+        <source xml:lang="en-CA">Demo companion app for
+  &lt;a href="&lt;x id="PH" equiv-text="this.phraseBlogUrl"/&gt;"&gt;Phrase blog&lt;/a&gt;
+  post.
+  &lt;a href="&lt;x id="PH_1" equiv-text="this.angularUrl"/&gt;"&gt;Made with Angular&lt;/a&gt;.</source>
+        <target xml:lang="fr">application compagnon de demonstration pour
+        &lt;a href="<x id="PH" equiv-text="this.phraseBlogUrl"/>"&gt;مدونة فريز&lt;/a&gt;
+  .
+  &lt;a href="<x id="PH_1" equiv-text="this.angularUrl"/>"&gt;بني بواسطة أنجيولر&lt;/a&gt;.</target>
+      </trans-unit>
+      <trans-unit id="1726363342938046830">
+        <source xml:lang="en-CA">About</source>
+        <target xml:lang="fr">à propos</target>
+      </trans-unit>
+      <trans-unit id="2821179408673282599">
+        <source xml:lang="en-CA">Home</source>
+        <target xml:lang="fr">maison</target>
+      </trans-unit>
+      <trans-unit id="4481891408571585417">
+        <source xml:lang="en-CA"> Add to cart </source>
+        <target xml:lang="fr">Ajouter au panier</target>
+      </trans-unit>
+      <trans-unit id="615967567956853879">
+        <source xml:lang="en-CA">azcadea logo</source>
+        <target xml:lang="fr">azcadea bientôt</target>
+      </trans-unit>
+      <trans-unit id="6223458566712133696">
+        <source xml:lang="en-CA">Image of <x id="PH" equiv-text="cabinet.name"/></source>
+        <target xml:lang="fr">image de<x id="PH" equiv-text="cabinet.name"/></target>
+      </trans-unit>
+      <trans-unit id="7185053985224017078">
+        <source xml:lang="en-CA">{VAR_PLURAL, plural, =0 {Sold out} =1 {Available at 1 outlet} other {Available at
+          <x id="INTERPOLATION"/> outlets}}</source>
+        <target xml:lang="fr">{VAR_PLURAL, plural,
+          =0 {غير متوفر}
+          =1 {متوفر عند فرع <x id="INTERPOLATION"/>}
+          two {متوفر عند فرعين}
+          few {متوفر عند <x id="INTERPOLATION"/> أفرع}
+          many {متوفر عند <x id="INTERPOLATION"/> فرع}
+          other {متوفر عند <x id="INTERPOLATION"/> فرع}
+        }</target>
+      </trans-unit>
+      <trans-unit id="7285274704628585281">
+        <source xml:lang="en-CA">azcadea</source>
+        <target xml:lang="fr">azcadea</target>
+      </trans-unit>
+      <trans-unit id="8856905278208146821">
+        <source xml:lang="en-CA"> <x id="ICU" equiv-text="{cabinet.storeCount, plural, =0 {Sold out} =1           {Available at 1 outlet} other {Available at           {{ cabinet.storeCount }} outlets} }" xid="4465788077291796430"/> </source>
+        <target xml:lang="fr"> <x id="ICU" equiv-text="{cabinet.storeCount, plural, =0 {Sold out} =1           {Available at 1 outlet} other {Available at           {{ cabinet.storeCount }} outlets} }" xid="4465788077291796430"/> </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
