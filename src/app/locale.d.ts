@@ -1,1 +1,1 @@
-declare type Locale = 'en-CA' | 'ar';
+declare type Locale = 'en-CA' | 'ar' | 'fr';
